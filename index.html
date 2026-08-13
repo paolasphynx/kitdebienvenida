@@ -159,7 +159,7 @@
       <!-- INICIO: BIENVENIDA -->
       <article id="view-welcome" class="subtopic-view active">
         <div class="section-header">
-          <span class="module-tag"><i class="fa-solid fa-star"></i> INICIO</span>
+          <span class="module-tag"><i class="fa-solid fa-star"></i> Bienvenida e Introducción</span>
           <h1>¡Te damos la bienvenida a la Universidad Tecnológica Metropolitana!</h1>
         </div>
 
@@ -172,7 +172,7 @@
         <div class="navigation-footer">
           <div></div>
           <button class="btn btn-primary" onclick="markAndGo('view-welcome', 'view-intro-main', 'menu-intro-main', 'group-intro')">
-            Siguiente: Módulo Introductorio <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: Módulo Introductorio: Conoce a tu aliado tecnológico <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
@@ -182,12 +182,51 @@
            =================================================================== -->
       <article id="view-intro-main" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo Introductorio</span>
-          <h1>Conoce a tu aliado tecnológico</h1>
+          <span class="module-tag">Módulo Introductorio: Conoce a tu aliado tecnológico</span>
+          <h1>Introducción al módulo</h1>
         </div>
-        <div class="card welcome-text">
-          <p>Antes de comenzar a configurar tus herramientas, es clave que conozcas quiénes están detrás del ecosistema digital de la universidad. En este módulo aprenderás cómo se estructura SISEI y cuáles son sus servicios.</p>
+        
+        <!-- Tarjeta Principal / Destacada -->
+        <div class="card intro-card-highlight">
+          <p class="lead-text">
+            Antes de comenzar a configurar tus herramientas y accesos, es clave que conozcas quiénes están detrás del ecosistema digital de la universidad. En este módulo aprenderás quién es el <strong>Departamento de Sistemas y Servicios de Informática (SISEI)</strong>, cómo nos estructuramos para apoyarte y cuáles son los principales servicios tecnológicos que ponemos a disposición de todos los funcionarios y académicos de la UTEM.
+          </p>
+          <p style="margin-top: 12px; font-weight: 700; color: var(--utem-azul);">
+            ¡Conoce nuestro departamento y descubre cómo podemos ayudarte en tu día a día!
+          </p>
         </div>
+
+        <!-- Tarjeta de Contenidos del Módulo -->
+        <div class="card">
+          <h3 style="color: var(--utem-azul); margin-bottom: 12px; font-size: 1.1rem;">
+            <i class="fa-solid fa-compass"></i> ¿Qué aprenderás en este módulo?
+          </h3>
+          
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; margin-left: 5px;">
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-building-user" style="color: var(--utem-azul);"></i>
+              <span><strong>1. ¿Quién es SISEI?:</strong> Nuestra misión y las 3 áreas operativas que componen el departamento.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-screwdriver-wrench" style="color: var(--utem-azul);"></i>
+              <span><strong>2. Servicios tecnológicos generales:</strong> Modalidades de autoservicio y atención directa.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-headset" style="color: var(--utem-azul);"></i>
+              <span><strong>3. Canales oficiales de atención:</strong> Vías presenciales, telefónicas y digitales de soporte.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-ticket" style="color: var(--utem-azul);"></i>
+              <span><strong>4. Mesa de Ayuda y Tickets:</strong> Cómo ingresar y dar seguimiento a tus requerimientos técnicos.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-file-contract" style="color: var(--utem-azul);"></i>
+              <span><strong>5. Normativas y Políticas TIC:</strong> Uso aceptable de recursos tecnológicos y ciberseguridad.</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- Pie de Navegación -->
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-welcome', document.getElementById('menu-view-welcome'))">
             <i class="fa-solid fa-arrow-left"></i> Anterior: Bienvenida e Introducción
@@ -200,7 +239,7 @@
 
       <article id="view-intro-1" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo Introductorio</span>
+          <span class="module-tag">Módulo Introductorio: Conoce a tu aliado tecnológico</span>
           <h1>1. ¿Quién es SISEI?</h1>
         </div>
         <div class="card">
@@ -239,7 +278,7 @@
 
       <article id="view-intro-2" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo Introductorio</span>
+          <span class="module-tag">Módulo Introductorio: Conoce a tu aliado tecnológico</span>
           <h1>2. Servicios tecnológicos generales</h1>
         </div>
         <div class="card">
@@ -272,7 +311,7 @@
 
       <article id="view-intro-3" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo Introductorio</span>
+          <span class="module-tag">Módulo Introductorio: Conoce a tu aliado tecnológico</span>
           <h1>3. Canales oficiales de atención</h1>
         </div>
         <div class="card">
@@ -295,7 +334,7 @@
 
       <article id="view-intro-4" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo Introductorio</span>
+          <span class="module-tag">Módulo Introductorio: Conoce a tu aliado tecnológico</span>
           <h1>4. Mesa de Ayuda y Tickets</h1>
         </div>
         <div class="card">
@@ -313,7 +352,7 @@
 
       <article id="view-intro-5" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo Introductorio</span>
+          <span class="module-tag">Módulo Introductorio: Conoce a tu aliado tecnológico</span>
           <h1>5. Normativas y Políticas TIC</h1>
         </div>
         <div class="card">
@@ -324,7 +363,7 @@
             <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Mesa de Ayuda y Tickets
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-intro-5', 'view-m1-main', 'menu-m1-main', 'group-modulo-1')">
-            Siguiente: Módulo 1: Configuración inicial <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: Módulo 1: Configuración inicial y Credenciales UTEM <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
@@ -332,14 +371,47 @@
       <!-- ===================================================================
            MÓDULO 1
            =================================================================== -->
+      <!-- INTRODUCCIÓN DEL MÓDULO 1 ACTUALIZADA -->
       <article id="view-m1-main" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 1</span>
+          <span class="module-tag">Módulo 1: Configuración inicial y Credenciales UTEM</span>
           <h1>Configuración inicial y Credenciales UTEM</h1>
         </div>
-        <div class="card welcome-text">
-          <p>En este paso configurarás la llave principal que te dará acceso a todo el ecosistema de la universidad: tu Pasaporte UTEM.</p>
+        
+        <div class="card intro-card-highlight">
+          <p class="lead-text">
+            En este primer paso práctico, configurarás la <strong>llave principal</strong> que te dará acceso a todo el ecosistema de la Universidad Tecnológica Metropolitana. Tu <strong>Pasaporte UTEM</strong> es la credencial única que te permitirá autenticarte en los sistemas corporativos, habilitar tu correo institucional, conectarte a las redes Wi-Fi del campus y gestionar tus herramientas tecnológicas de trabajo de forma segura.
+          </p>
         </div>
+
+        <div class="card">
+          <h3 style="color: var(--utem-azul); margin-bottom: 12px; font-size: 1.1rem;">
+            <i class="fa-solid fa-compass"></i> ¿Qué aprenderás en este módulo?
+          </h3>
+          <p style="margin-bottom: 16px;">
+            A continuación, encontrarás las guías paso a paso para activar tu cuenta, resguardar tu clave y dejar listos tus dispositivos para tu día a día:
+          </p>
+
+          <ul style="list-style: none; display: flex; flex-direction: column; gap: 10px; margin-left: 5px;">
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-key" style="color: var(--utem-azul);"></i>
+              <span><strong>Pasaporte UTEM:</strong> Activación e ingreso inicial a tu cuenta institucional.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-lock" style="color: var(--utem-azul);"></i>
+              <span><strong>Gestión de Claves:</strong> Recuperación autónoma y consejos de seguridad.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-wifi" style="color: var(--utem-azul);"></i>
+              <span><strong>Conectividad:</strong> Configuración de redes Wi-Fi corporativas en campus.</span>
+            </li>
+            <li style="display: flex; align-items: center; gap: 10px; font-size: 0.95rem;">
+              <i class="fa-solid fa-mobile-screen" style="color: var(--utem-azul);"></i>
+              <span><strong>Dispositivos Móviles:</strong> Sincronización de correo y verificación en dos pasos (2FA).</span>
+            </li>
+          </ul>
+        </div>
+
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-intro-5', document.getElementById('menu-intro-5'))">
             <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Normativas y Políticas TIC
@@ -350,7 +422,6 @@
         </div>
       </article>
 
-      <!-- PUNTO 1 MÓDULO 1 MEJORADO -->
       <article id="view-m1-1" class="subtopic-view">
         <div class="section-header">
           <span class="module-tag">Módulo 1: Configuración inicial y Credenciales UTEM</span>
@@ -434,7 +505,7 @@
 
       <article id="view-m1-2" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 1</span>
+          <span class="module-tag">Módulo 1: Configuración inicial y Credenciales UTEM</span>
           <h1>2. Pasaporte UTEM y Recuperación de Clave</h1>
         </div>
         <div class="card">
@@ -445,14 +516,14 @@
             <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Activación de mi cuenta UTEM
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m1-2', 'view-m1-3', 'menu-m1-3', 'group-modulo-1')">
-            Siguiente: 3. Configuración de Wi-Fi <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 3. Configuración de Wi-Fi Institucional <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m1-3" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 1</span>
+          <span class="module-tag">Módulo 1: Configuración inicial y Credenciales UTEM</span>
           <h1>3. Configuración de Wi-Fi Institucional</h1>
         </div>
         <div class="card">
@@ -460,17 +531,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m1-2', document.getElementById('menu-m1-2'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Pasaporte UTEM y Recuperación
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Pasaporte UTEM y Recuperación de Clave
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m1-3', 'view-m1-4', 'menu-m1-4', 'group-modulo-1')">
-            Siguiente: 4. Correo en Móviles <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 4. Configuración del Correo en Móviles <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m1-4" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 1</span>
+          <span class="module-tag">Módulo 1: Configuración inicial y Credenciales UTEM</span>
           <h1>4. Configuración del Correo en Móviles</h1>
         </div>
         <div class="card">
@@ -478,17 +549,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m1-3', document.getElementById('menu-m1-3'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Configuración de Wi-Fi
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Configuración de Wi-Fi Institucional
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m1-4', 'view-m1-5', 'menu-m1-5', 'group-modulo-1')">
-            Siguiente: 5. Verificación en Dos Pasos <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 5. Verificación en Dos Pasos (2FA) <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m1-5" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 1</span>
+          <span class="module-tag">Módulo 1: Configuración inicial y Credenciales UTEM</span>
           <h1>5. Verificación en Dos Pasos (2FA)</h1>
         </div>
         <div class="card">
@@ -496,10 +567,10 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m1-4', document.getElementById('menu-m1-4'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Correo en Móviles
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Configuración del Correo en Móviles
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m1-5', 'view-m2-main', 'menu-m2-main', 'group-modulo-2')">
-            Siguiente: Módulo 2: Plataformas Digitales <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: Módulo 2: Plataformas Digitales y Productividad <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
@@ -509,7 +580,7 @@
            =================================================================== -->
       <article id="view-m2-main" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 2</span>
+          <span class="module-tag">Módulo 2: Plataformas Digitales y Productividad</span>
           <h1>Plataformas Digitales y Productividad</h1>
         </div>
         <div class="card welcome-text">
@@ -517,17 +588,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m1-5', document.getElementById('menu-m1-5'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Verificación en Dos Pasos
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Verificación en Dos Pasos (2FA)
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m2-main', 'view-m2-1', 'menu-m2-1', 'group-modulo-2')">
-            Siguiente: 1. Portal Intranet UTEM <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 1. Portal de Intranet UTEM <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m2-1" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 2</span>
+          <span class="module-tag">Módulo 2: Plataformas Digitales y Productividad</span>
           <h1>1. Portal de Intranet UTEM</h1>
         </div>
         <div class="card">
@@ -538,14 +609,14 @@
             <i class="fa-solid fa-arrow-left"></i> Anterior: Introducción al Módulo
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m2-1', 'view-m2-2', 'menu-m2-2', 'group-modulo-2')">
-            Siguiente: 2. Microsoft 365 <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 2. Suite de Microsoft 365 <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m2-2" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 2</span>
+          <span class="module-tag">Módulo 2: Plataformas Digitales y Productividad</span>
           <h1>2. Suite de Microsoft 365</h1>
         </div>
         <div class="card">
@@ -553,17 +624,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m2-1', document.getElementById('menu-m2-1'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Portal Intranet UTEM
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Portal de Intranet UTEM
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m2-2', 'view-m2-3', 'menu-m2-3', 'group-modulo-2')">
-            Siguiente: 3. Microsoft Teams <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 3. Uso de Microsoft Teams <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m2-3" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 2</span>
+          <span class="module-tag">Módulo 2: Plataformas Digitales y Productividad</span>
           <h1>3. Uso de Microsoft Teams</h1>
         </div>
         <div class="card">
@@ -571,17 +642,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m2-2', document.getElementById('menu-m2-2'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Microsoft 365
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Suite de Microsoft 365
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m2-3', 'view-m2-4', 'menu-m2-4', 'group-modulo-2')">
-            Siguiente: 4. Almacenamiento OneDrive <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 4. Almacenamiento Institucional OneDrive <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m2-4" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 2</span>
+          <span class="module-tag">Módulo 2: Plataformas Digitales y Productividad</span>
           <h1>4. Almacenamiento Institucional OneDrive</h1>
         </div>
         <div class="card">
@@ -589,17 +660,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m2-3', document.getElementById('menu-m2-3'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Microsoft Teams
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Uso de Microsoft Teams
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m2-4', 'view-m2-5', 'menu-m2-5', 'group-modulo-2')">
-            Siguiente: 5. Firma Digital <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 5. Firma Digital Institucional <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m2-5" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 2</span>
+          <span class="module-tag">Módulo 2: Plataformas Digitales y Productividad</span>
           <h1>5. Firma Digital Institucional</h1>
         </div>
         <div class="card">
@@ -607,10 +678,10 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m2-4', document.getElementById('menu-m2-4'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Almacenamiento OneDrive
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Almacenamiento Institucional OneDrive
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m2-5', 'view-m3-main', 'menu-m3-main', 'group-modulo-3')">
-            Siguiente: Módulo 3: Sistemas Académicos <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: Módulo 3: Sistemas Académicos y Administrativos <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
@@ -620,7 +691,7 @@
            =================================================================== -->
       <article id="view-m3-main" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 3</span>
+          <span class="module-tag">Módulo 3: Sistemas Académicos y Administrativos</span>
           <h1>Sistemas Académicos y Administrativos</h1>
         </div>
         <div class="card welcome-text">
@@ -628,17 +699,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m2-5', document.getElementById('menu-m2-5'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Firma Digital
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Firma Digital Institucional
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m3-main', 'view-m3-1', 'menu-m3-1', 'group-modulo-3')">
-            Siguiente: 1. Docencia Virtual (Canvas) <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 1. Plataforma de Docencia Virtual (Canvas) <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m3-1" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 3</span>
+          <span class="module-tag">Módulo 3: Sistemas Académicos y Administrativos</span>
           <h1>1. Plataforma de Docencia Virtual (Canvas)</h1>
         </div>
         <div class="card">
@@ -649,14 +720,14 @@
             <i class="fa-solid fa-arrow-left"></i> Anterior: Introducción al Módulo
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m3-1', 'view-m3-2', 'menu-m3-2', 'group-modulo-3')">
-            Siguiente: 2. Gestión Docente <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 2. Sistema de Gestión Docente y Calificaciones <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m3-2" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 3</span>
+          <span class="module-tag">Módulo 3: Sistemas Académicos y Administrativos</span>
           <h1>2. Sistema de Gestión Docente y Calificaciones</h1>
         </div>
         <div class="card">
@@ -664,17 +735,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m3-1', document.getElementById('menu-m3-1'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Docencia Virtual (Canvas)
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Plataforma de Docencia Virtual (Canvas)
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m3-2', 'view-m3-3', 'menu-m3-3', 'group-modulo-3')">
-            Siguiente: 3. Gestión Documental <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 3. Gestión Administrativa y Documental <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m3-3" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 3</span>
+          <span class="module-tag">Módulo 3: Sistemas Académicos y Administrativos</span>
           <h1>3. Gestión Administrativa y Documental</h1>
         </div>
         <div class="card">
@@ -682,17 +753,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m3-2', document.getElementById('menu-m3-2'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Gestión Docente
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Sistema de Gestión Docente y Calificaciones
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m3-3', 'view-m3-4', 'menu-m3-4', 'group-modulo-3')">
-            Siguiente: 4. Marcaje y Asistencia <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 4. Sistema de Marcaje y Asistencia <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m3-4" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 3</span>
+          <span class="module-tag">Módulo 3: Sistemas Académicos y Administrativos</span>
           <h1>4. Sistema de Marcaje y Asistencia</h1>
         </div>
         <div class="card">
@@ -700,17 +771,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m3-3', document.getElementById('menu-m3-3'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Gestión Documental
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Gestión Administrativa y Documental
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m3-4', 'view-m3-5', 'menu-m3-5', 'group-modulo-3')">
-            Siguiente: 5. Biblioteca y Recursos <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 5. Biblioteca y Recursos Digitales <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m3-5" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 3</span>
+          <span class="module-tag">Módulo 3: Sistemas Académicos y Administrativos</span>
           <h1>5. Biblioteca y Recursos Digitales</h1>
         </div>
         <div class="card">
@@ -718,10 +789,10 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m3-4', document.getElementById('menu-m3-4'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Marcaje y Asistencia
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Sistema de Marcaje y Asistencia
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m3-5', 'view-m4-main', 'menu-m4-main', 'group-modulo-4')">
-            Siguiente: Módulo 4: Ciberseguridad <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: Módulo 4: Ciberseguridad y Soporte Continuo <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
@@ -731,7 +802,7 @@
            =================================================================== -->
       <article id="view-m4-main" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 4</span>
+          <span class="module-tag">Módulo 4: Ciberseguridad y Soporte Continuo</span>
           <h1>Ciberseguridad y Soporte Continuo</h1>
         </div>
         <div class="card welcome-text">
@@ -739,17 +810,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m3-5', document.getElementById('menu-m3-5'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Biblioteca y Recursos
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 5. Biblioteca y Recursos Digitales
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m4-main', 'view-m4-1', 'menu-m4-1', 'group-modulo-4')">
-            Siguiente: 1. Protección de Datos <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 1. Protección de Datos y Ciberseguridad <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m4-1" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 4</span>
+          <span class="module-tag">Módulo 4: Ciberseguridad y Soporte Continuo</span>
           <h1>1. Protección de Datos y Ciberseguridad</h1>
         </div>
         <div class="card">
@@ -760,14 +831,14 @@
             <i class="fa-solid fa-arrow-left"></i> Anterior: Introducción al Módulo
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m4-1', 'view-m4-2', 'menu-m4-2', 'group-modulo-4')">
-            Siguiente: 2. Phishing y Estafas <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 2. Identificación de Phishing y Estafas <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m4-2" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 4</span>
+          <span class="module-tag">Módulo 4: Ciberseguridad y Soporte Continuo</span>
           <h1>2. Identificación de Phishing y Estafas</h1>
         </div>
         <div class="card">
@@ -775,17 +846,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m4-1', document.getElementById('menu-m4-1'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Protección de Datos
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 1. Protección de Datos y Ciberseguridad
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m4-2', 'view-m4-3', 'menu-m4-3', 'group-modulo-4')">
-            Siguiente: 3. Equipamiento e Insumos <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 3. Solicitud de Equipamiento e Insumos <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m4-3" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 4</span>
+          <span class="module-tag">Módulo 4: Ciberseguridad y Soporte Continuo</span>
           <h1>3. Solicitud de Equipamiento e Insumos</h1>
         </div>
         <div class="card">
@@ -793,17 +864,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m4-2', document.getElementById('menu-m4-2'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Phishing y Estafas
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 2. Identificación de Phishing y Estafas
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m4-3', 'view-m4-4', 'menu-m4-4', 'group-modulo-4')">
-            Siguiente: 4. Mantención Preventiva <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 4. Mantención Preventiva y Correctiva <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m4-4" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 4</span>
+          <span class="module-tag">Módulo 4: Ciberseguridad y Soporte Continuo</span>
           <h1>4. Mantención Preventiva y Correctiva</h1>
         </div>
         <div class="card">
@@ -811,17 +882,17 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m4-3', document.getElementById('menu-m4-3'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Equipamiento e Insumos
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 3. Solicitud de Equipamiento e Insumos
           </button>
           <button class="btn btn-primary" onclick="markAndGo('view-m4-4', 'view-m4-5', 'menu-m4-5', 'group-modulo-4')">
-            Siguiente: 5. Cierre de Inducción <i class="fa-solid fa-arrow-right"></i>
+            Siguiente: 5. Cierre de Inducción y Encuesta <i class="fa-solid fa-arrow-right"></i>
           </button>
         </div>
       </article>
 
       <article id="view-m4-5" class="subtopic-view">
         <div class="section-header">
-          <span class="module-tag">Módulo 4</span>
+          <span class="module-tag">Módulo 4: Ciberseguridad y Soporte Continuo</span>
           <h1>5. Cierre de Inducción y Encuesta</h1>
         </div>
         <div class="card" style="text-align: center;">
@@ -831,7 +902,7 @@
         </div>
         <div class="navigation-footer">
           <button class="btn btn-secondary" onclick="showSubtopic('view-m4-4', document.getElementById('menu-m4-4'))">
-            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Mantención Preventiva
+            <i class="fa-solid fa-arrow-left"></i> Anterior: 4. Mantención Preventiva y Correctiva
           </button>
           <button class="btn btn-success" onclick="alert('¡Gracias por completar el recorrido!')">
             Finalizar Inducción <i class="fa-solid fa-check-double"></i>
