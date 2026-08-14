@@ -64,7 +64,7 @@ body {
 }
 
 .sisei-logo-container {
-  background: white;
+  background: none;
   padding: 6px 10px;
   border-radius: 6px;
   display: inline-flex;
